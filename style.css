@@ -1,0 +1,17 @@
+
+main{
+    padding: 0 10%;
+}
+.general-container{
+    background-color: white;
+}
+.card{
+    border: 0;
+}
+.card-text{
+    color:grey;
+
+}
+.card-text::first-line{
+    color:black;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!--nav-->
+  <nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Spotify</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Librery</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Account
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Favorit</a></li>
+                <li><a class="dropdown-item" href="#">reacently played</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Account</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </nav>
+
+  <!--album-->
+  <main>
+    <h3>Favorite Album</h3>
+    <div class="card mb-3">
+      <img src="christmas.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Christmas songs</h5>
+        <p class="card-text">A mix of christmas hits 2023.<br> Circa 2 ore</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+
+    <h3>Other Albums</h3>
+    <div class="row general-container d-flex justify-content-center">
+      <div class="card col-lg-3 col-md-4 col-sm-6 col-6 p-3">
+        <img src="amore.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-truncate">Amore</h5>
+          <p class="card-text text-truncate">Pavarotti &#x2022; Romantic <br> Circa 40 minuti</p>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-4 col-sm-6 col-6 p-3">
+        <img src="can't take my eyes off you.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-truncate">A man without love</h5>
+          <p class="card-text text-truncate">Engelbert &#x2022; Romantic <br> Circa 35 minuti</p>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-4 col-sm-6 col-6 p-3">
+        <img src="easy on me.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-truncate">Someone Like You</h5>
+          <p class="card-text text-truncate">Adele &#x2022; POP <br> Circa 32 minuti</p>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-4 col-sm-6 col-6 p-3">
+        <img src="glamour.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-truncate">Glamour</h5>
+          <p class="card-text text-truncate">Shakira &#x2022; Pop latino <br> Circa 28 minuti</p>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-4 col-sm-6 col-6 p-3">
+        <img src="italian classic.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-truncate">italian classic</h5>
+          <p class="card-text text-truncate">Mix &#x2022; Classic <br> Circa 2 ore</p>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-4 col-sm-6 col-6 p-3">
+        <img src="italian songs.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-truncate">Italian songs</h5>
+          <p class="card-text text-truncate">Filter italy &#x2022; Mix <br> Circa 3 ore</p>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-4 col-sm-6 col-6 p-3">
+        <img src="killing me softly.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-truncate">Killing me softly</h5>
+          <p class="card-text text-truncate">Perry Como &#x2022; Love songs <br> Circa 20 minuti</p>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-4 col-sm-6 col-6 p-3">
+        <img src="love in portofino.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-truncate">Love in Portofino</h5>
+          <p class="card-text text-truncate">Andrea Boccelli &#x2022; Love songs <br> Circa 25 minuti</p>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-4 col-sm-6 col-6 p-3">
+        <img src="oh vita.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-truncate">Oh, Vita!</h5>
+          <p class="card-text text-truncate">Jovanotti &#x2022; Pop italiana <br> Circa 30 minuti</p>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-4 col-sm-6 col-6 p-3">
+        <img src="paradise.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-truncate">Paradise</h5>
+          <p class="card-text text-truncate">Lana Del Rey &#x2022; Mix <br> Circa 23 minuti</p>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-4 col-sm-6 col-6 p-3">
+        <img src="shakira.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-truncate">El Dorado</h5>
+          <p class="card-text text-truncate">Shakira &#x2022; Mix <br> Circa 42 minuti</p>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-4 col-sm-6 col-6 p-3">
+        <img src="si.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-truncate">Si</h5>
+          <p class="card-text text-truncate">Andrea Bocelle &#x2022; Love <br> Circa 25 minuti</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!--footer-->
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-body-secondary">&copy; 2023 Company, Inc</p>
+      <a href="/"
+        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32">
+          <use xlink:href="#bootstrap" />
+        </svg>
+      </a>
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+      </ul>
+    </footer>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+  integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+</html>
